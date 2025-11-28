@@ -69,3 +69,7 @@ Now, to run, just use the `newshell` command!
 
 ## Arguments
 Too see what arguments newshell takes, run: `newshell help`.
+
+## Other Documentation
+- **[Changelog](CHANGELOG.md):** List of changes
+- **[Contributors](CONTRIBUTORS.md):** List of contributors to this project
