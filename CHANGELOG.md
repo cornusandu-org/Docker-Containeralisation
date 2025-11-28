@@ -5,9 +5,9 @@ All notable changes to this project will be documented in this file.
 ```diff
 + [Added] CHANGELOG.md
 + [Added] LICENSE.md
-@@ LICENSE.md = MIT
+@@ LICENSE.md = MIT @@
 + [Added] Commandline arguments
-@@ newshell help = details
+@@ newshell help = details @@
 + [Added] Build details in README.md
 ```
 
