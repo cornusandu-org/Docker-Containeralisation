@@ -7,10 +7,10 @@ RUN apt-get update && \
         curl \
         acl \
         7kaa \
-        7zip-rar \
-        7zip-standalone \
-        7zip \
-        mman
+        p7zip \
+        p7zip-full \
+        unrar-free \
+        libmman-dev \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 

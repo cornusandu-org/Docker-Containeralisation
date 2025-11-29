@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 ## 1.0.3
 ```diff
 + [Added] more default tools/packages
-@@ 7kaa 7zip-rar 7zip-standalone 7zip mman @@
+@@ 7kaa p7zip p7zip-full unrar-free libmman-dev @@
 ```
 
 ## 1.0.2
