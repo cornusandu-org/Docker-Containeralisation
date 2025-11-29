@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## 1.0.4
+## 1.1.0
 ```diff
 + [Added] more default tools/packages
 @@ antlr4 antlr4-doc basex basez bashtop bash-doc bash-completion bash-argsparse basix-doc catdoc ddnet grep nmap tcpdump @@

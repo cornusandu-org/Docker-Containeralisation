@@ -79,6 +79,7 @@ To make a minimal build, which only includes a few packages, do:
 ```sh
 docker build . -t new_shell --memory=4g --build-arg MINIMAL=true
 ```
+A minimal build takes ~3x less to build, and takes up less total storage due to the heavily reduced number of packages.
 
 ### Switching between accounts
 By default, each instance contains three users:
