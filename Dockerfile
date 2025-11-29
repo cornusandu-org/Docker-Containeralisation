@@ -10,7 +10,7 @@ RUN apt-get update && \
         p7zip \
         p7zip-full \
         unrar-free \
-        libmman-dev \
+        mandoc  \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
