@@ -1,14 +1,20 @@
 FROM debian:stable
+RUN apt-get update && \
+    apt-get install -y \
+        nano \
+        sudo \
+        build-essential \
+        curl \
+        acl \
+        7kaa \
+        7zip-rar \
+        7zip-standalone \
+        7zip \
+        mman
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
-RUN apt-get update && apt-get install -y nano && apt-get clean
 
-RUN apt-get update && apt-get install -y sudo && apt-get clean
-
-RUN apt-get update && apt-get install -y build-essential && apt-get clean
-
-RUN apt-get update && apt-get install -y curl && apt-get clean
-
-RUN apt-get update && apt-get install -y acl && apt-get clean
 
 # Copy the wrapper script into the image
 COPY entrypoint.sh .

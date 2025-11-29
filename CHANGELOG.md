@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.0.3
+```diff
++ [Added] more default tools/packages
+```
+
 ## 1.0.2
 ```diff
 ! [Changed] Increased memory limit for building
